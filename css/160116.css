@@ -23,7 +23,7 @@ body {
 /* ####### BACKGROUNDS & Sectie specifieke opmaak ###### */
 
 .titelbackground {
-	background:  url("images/achtergrond2.jpg");
+	background:  url("../images/achtergrond2.jpg");
 }
 
 .beeldendbackground {
@@ -90,10 +90,10 @@ body {
 	display: inline;
 	list-style-type: none ;	
 	font-style: italic;
-	font-size: 40px;
+	font-size: 32px;
 	letter-spacing: 2px;
 	color: black;	
-	word-spacing: 10px;
+	word-spacing: 5px;
 }
 
 .nav a:link{
@@ -109,7 +109,7 @@ body {
 	background-color: rgba(255,255,255,.9);
 	position: relative;
 	z-index: 300;
-	padding-bottom: 0px;
+	padding-bottom: 5px;
 	width: 100%;
 }
 
@@ -120,6 +120,9 @@ body {
 	border: 0px solid black; 
 }
 
+.nav2 a{
+	padding-right: 20px;
+}
 
 
 
@@ -185,6 +188,8 @@ body {
 	/* background-color:rgba(130,130,130,.9);  modern browser */ 
 	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);/*IE fix */
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);     /* IE Fix */ 
+	padding-bottom:50px;
+	padding-top: 20px;
 }
 
 
@@ -256,6 +261,7 @@ p.gedicht {
 
 
 footer {
-	background-color: rgba(240,240,240,0.7);
+	background-color: rgba(220,220,220,0.9);
 	text-align: center;
+	padding-top:200px;
 }
