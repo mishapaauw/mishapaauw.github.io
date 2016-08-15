@@ -63,8 +63,9 @@ body {
 
 /* STRUCTUUR DINGETJES */
 
+/* gebruik hoogte hier om titel teplaatsen */
 .filler2 {
-	height: 240px;
+	height: 75px;
 }
 
 .anchor {
@@ -75,7 +76,7 @@ body {
 .filler {
 	width: 80%;
 	margin: auto;
-	height: 250px;
+	height: 390px;
 }
 
 
@@ -89,7 +90,6 @@ body {
 .nav a {
 	display: inline;
 	list-style-type: none ;	
-	font-style: italic;
 	font-size: 32px;
 	letter-spacing: 2px;
 	color: black;	
@@ -101,7 +101,7 @@ body {
 }
 
 .nav a:hover {
-	color: gray;
+	color: #bdbdbd;
 }
 
 .nav {
@@ -144,9 +144,9 @@ body {
 }
 
  .titel h1 {
-	font-size: 120px;
-	font-weight: bold;
-	letter-spacing: 6px;
+	font-size: 140px;
+	font-weight: normal;
+	letter-spacing: 7px;
 	display: inline;
 	
 }
