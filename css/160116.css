@@ -11,6 +11,8 @@ body {
 	font-size: 31px;
 	margin-bottom: -40px;
 }
+
+
 	
 .blok p{
 	font-size: 20px;
@@ -60,7 +62,40 @@ body {
 
 /* ######## ANDERE SECTIE SPECIFIEKE DINGEN ######## */
 
+/* only used in CV */
+table {
+	table-layout:auto;
+}
+td {
+	vertical-align:top;
+	font-size:20px;
+	padding-bottom:3px;
+}
 
+
+.blok h2 {
+	font-size: 28px;
+	margin-bottom: -10px;
+	font-weight:normal;
+}
+
+.tabeltitel {
+	background-color:rgba(255,255,255,.2);/* modern browser */
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);/*IE fix */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);     /* IE Fix */
+	border: 0px solid red;
+	margin: 0px;	
+	padding-top: 0px;
+}
+
+
+.tabeltitel h1 {
+	font-weight: normal; 
+	font-size: 23px;
+	letter-spacing: 2px;
+	color: black;	
+	word-spacing: 10px;
+}
 /* STRUCTUUR DINGETJES */
 
 /* gebruik hoogte hier om titel teplaatsen */
@@ -174,7 +209,7 @@ body {
 
 .bloktitel h1 {
 	font-weight: normal; 
-	font-size: 31px;
+	font-size: 35px;
 	letter-spacing: 2px;
 	color: black;	
 	word-spacing: 10px;
@@ -188,8 +223,8 @@ body {
 	/* background-color:rgba(130,130,130,.9);  modern browser */ 
 	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);/*IE fix */
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);     /* IE Fix */ 
-	padding-bottom:50px;
-	padding-top: 20px;
+	padding-bottom:20px;
+	padding-top: 10px;
 }
 
 
