@@ -16,6 +16,8 @@ body {
 	
 .blok p{
 	font-size: 20px;
+	white-space:normal;
+	word-wrap: break-word;
 }
 
 .blok li {
@@ -111,6 +113,11 @@ dd {
 	margin-top:3px;
 	margin-bottom: 25px;
 }
+
+/* Contact gedoe */
+
+
+
 /* STRUCTUUR DINGETJES */
 
 /* gebruik hoogte hier om titel teplaatsen */
