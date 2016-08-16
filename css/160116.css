@@ -96,6 +96,21 @@ td {
 	color: black;	
 	word-spacing: 10px;
 }
+
+
+/* Agenda definition lists */
+
+dt {
+	font-size: 23px;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+}
+
+dd {
+	font-size: 20px;
+	margin-top:3px;
+	margin-bottom: 25px;
+}
 /* STRUCTUUR DINGETJES */
 
 /* gebruik hoogte hier om titel teplaatsen */
@@ -116,7 +131,7 @@ td {
 
 
 
-/* ###### NAVITIEBAR MET LINKS ###### */
+/* ###### NAVIGATIEBAR MET LINKS ###### */
 
 .nav li {
 	display: inline;
