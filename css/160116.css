@@ -136,6 +136,11 @@ li a:hover{
 	color: #bdbdbd;
 }
 
+.jaarlink a:hover{
+	color: #666666;
+}
+
+
 li a:hover:before {
     content: "\00BB";
 	margin-left:-1em;
@@ -143,6 +148,7 @@ li a:hover:before {
 	font-weight:bold;
 	font-size:23px;
 }
+
 
 /* STRUCTUUR DINGETJES */
 
