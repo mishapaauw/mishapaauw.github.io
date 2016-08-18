@@ -11,8 +11,6 @@ body {
 	font-size: 31px;
 	margin-bottom: -40px;
 }
-
-
 	
 .blok p{
 	font-size: 20px;
@@ -20,9 +18,7 @@ body {
 	word-wrap: break-word;
 }
 
-.blok li {
-	font-size: 20px;
-}
+
 
 /* ####### BACKGROUNDS & Sectie specifieke opmaak ###### */
 
@@ -114,9 +110,39 @@ dd {
 	margin-bottom: 25px;
 }
 
-/* Contact gedoe */
+/* lists met links (gedichten, jaarknoppen) */
 
+ul {
+	list-style: none;
+}
 
+ul li {
+	padding-left: 25px;
+	padding-bottom: 10px;
+}
+
+li a:link{
+	text-decoration: none;
+	font-size: 23px;
+	color: black;
+	letter-spacing:1.2px;
+}
+
+li a:visited{
+	color:black;
+}
+
+li a:hover{
+	color: #bdbdbd;
+}
+
+li a:hover:before {
+    content: "\00BB";
+	margin-left:-1em;
+	float: left;
+	font-weight:bold;
+	font-size:23px;
+}
 
 /* STRUCTUUR DINGETJES */
 
