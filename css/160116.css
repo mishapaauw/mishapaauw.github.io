@@ -141,7 +141,7 @@ li a:hover{
 }
 
 
-li a:hover:before {
+li a:before {
     content: "\00BB";
 	margin-left:-1em;
 	float: left;
