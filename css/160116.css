@@ -27,7 +27,7 @@ body {
 }
 
 .beeldendbackground {
-	background-color: rgba(200,200,200,1);
+	background-color:#3675ab;
 	border: 0px solid red;
 	overflow:hidden;
 }
