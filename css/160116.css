@@ -270,7 +270,7 @@ img {
 /* ####### BLOK EIGENSCHAPPEN ###### */
 
 .bloktitel {
-	background-color:rgba(255,255,255,.1);/* modern browser */
+	background-color:rgba(255,255,255,.2);/* modern browser */
 	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);/*IE fix */
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);     /* IE Fix */
 	border: 0px solid red;
