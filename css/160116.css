@@ -27,29 +27,29 @@ body {
 }
 
 .beeldendbackground {
-	background-color:#3675ab;
+	background-color:	#9cc7df;
 	border: 0px solid red;
 	overflow:hidden;
 }
 
 .gedichtenbackground {
-	background-color: rgba(240,240,240,1);
+	background-color: 	#9cc7df;
 	overflow:hidden;
 }
 
 .agendabackground {
-	background-color: rgba(200,200,200,1);
+	background-color: 	#96b4c5;
 	border: 0px solid red;
 	overflow:hidden;
 }
 
 .cvbackground {
-	background-color: rgba(240,240,240,1);
+	background-color: 	#9cc7df;
 	overflow:hidden;
 }
 
 .contactbackground {
-	background-color: rgba(200,200,200,1);
+	background-color: 	#96b4c5;
 	overflow:hidden;
 	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 }
