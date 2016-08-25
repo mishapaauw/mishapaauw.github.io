@@ -302,6 +302,26 @@ img {
 	padding-top: 3px;
 }
 
+/* ####### CSS for gedichten ####### */
+p.gedicht {
+	line-height: 140%;
+	font-size: 25px;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+p.inspring {
+	line-height: 140%;
+	font-size: 25px;	
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	padding-left: 12em;
+	margin-bottom: -25px;
+}
 
 
 
@@ -353,6 +373,26 @@ img {
   h5 {
 	  margin: 2% 0;
   }
+  
+p.gedicht {
+	line-height: 120%;
+	font-size: 18;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+p.inspring {
+	line-height: 120%;
+	font-size: 18px;	
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	padding-left: 7em;
+	margin-bottom: -25px;
+}
 }
 @media (max-width: 400px) {
   #photos {
@@ -362,26 +402,6 @@ img {
   }
 }
 
-/* ####### CSS for gedichten ####### */
-p.gedicht {
-	line-height: 140%;
-	font-size: 25px;
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-}
-
-p.inspring {
-	line-height: 140%;
-	font-size: 25px;	
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	padding-left: 12em;
-	margin-bottom: -25px;
-}
 
 
 footer {
