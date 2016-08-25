@@ -59,6 +59,10 @@ body {
 
 
 /* ######## ANDERE SECTIE SPECIFIEKE DINGEN ######## */
+/* contact */
+.contactfoto {
+	width:25%;	
+}
 
 /* only used in CV */
 table {
