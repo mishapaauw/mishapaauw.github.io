@@ -302,6 +302,19 @@ img {
 	padding-top: 3px;
 }
 
+.helepagina {
+	width: 80%;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0px auto 0px auto; 
+	/* border: 2px solid rgba(130,130,130,.9); */
+	/* background-color:rgba(130,130,130,.9);  modern browser */ 
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);/*IE fix */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);     /* IE Fix */ 
+	padding-bottom:20px;
+	padding-top: 3px;
+}
+
 /* ####### CSS for gedichten ####### */
 p.gedicht {
 	line-height: 140%;
@@ -406,6 +419,5 @@ p.inspring {
 
 footer {
 	background-color: rgba(220,220,220,0.9);
-	text-align: center;
-	padding-top:200px;
+	text-align: right;
 }
