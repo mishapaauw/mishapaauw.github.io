@@ -362,13 +362,22 @@ img {
 p.gedicht {
 	line-height: 140%;
 	font-size: 25px;
-	
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
 }
 
+p.inspring {
+	line-height: 140%;
+	font-size: 25px;	
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	padding-left: 12em;
+	margin-bottom: -25px;
+}
 
 
 footer {
