@@ -25,10 +25,8 @@ body {
 ##### BACKGROUNDS & Sectie specifieke opmaak ###### */
 
 .titelbackground {
-	background:  url("../images/achtergrond2.jpg");	
-
-	height: 100vh;
-	}
+	background:  url("../images/achtergrond2.jpg");
+}
 
 .beeldendbackground {
 	background-color:	#9cc7df;
@@ -187,6 +185,11 @@ img {
 	height: 0px
 }
 
+.filler {
+	width: 80%;
+	margin: auto;
+	height: 390px;
+}
 
 
 
@@ -386,7 +389,6 @@ p.inspring {
 	  margin: 2% 0;
   }
   
-
 p.gedicht {
 	line-height: 120%;
 	font-size: 18;
