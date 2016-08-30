@@ -24,37 +24,9 @@ body {
 
 ##### BACKGROUNDS & Sectie specifieke opmaak ###### */
 
-@media only screen and (min-width: 1024px) {
 .titelbackground {
-	background:  url("../images/achtergrond_hor.jpg");
-	background-size: 100% auto;
+	background:  url("../images/achtergrond2.jpg");
 }
-}
-
-@media only screen and (max-width: 1023px) {
-.titelbackground {
-	background:  url("../images/achtergrond_vert_gr.jpg");
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-}
-.filler{
-	height: 100px;
-}
-}
-
-@media only screen and (max-width: 511px) {
-.titelbackground {
-	background:  url("../images/achtergrond_vert_kl.jpg");
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-}
-.filler{
-	height: 100px;
-}
-}
-
-
-
 
 .beeldendbackground {
 	background-color:	#9cc7df;
@@ -217,19 +189,6 @@ img {
 	width: 80%;
 	margin: auto;
 	height: 390px;
-}
-
-@media only screen and (max-width: 1023px) {
-
-.filler{
-	height: 100px;
-}
-}
-
-@media only screen and (max-width: 511px) {
-.filler{
-	height: 100px;
-}
 }
 
 
