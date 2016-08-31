@@ -118,16 +118,16 @@ dd {
 
 /* lists met links (gedichten)*/
 
-ul {
+.blok ul {
 	list-style: none;
 }
 
-ul li {
+.blok ul li {
 	padding-left: 25px;
 	padding-bottom: 10px;
 }
 
-li a:link{
+.blok li a:link{
 	text-decoration: none;
 	font-size: 23px;
 	color: black;
@@ -236,8 +236,56 @@ img {
 	padding-right: 20px;
 }
 
+/* Breadcrumbs op gedichten page */
+
+.titelcontainer {
+	background-color:rgba(255,255,255,.2);/* modern browser */
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);/*IE fix */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);     /* IE Fix */
+	border: 0px solid red;
+	margin: 0px;	
+	width:100%;
+}
+
+.breadcrumb {
+	width: 100%;
+	background-color:rgba(255,255,255,.3);/* modern browser */
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);/*IE fix */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);     /* IE Fix */
+	border: 0px solid blue;
+}
+
+.breadcrumb ul {
+	list-style: none;
+	padding: 0px 0px 0px 10px;
+	margin: 0;
+}
+
+.breadcrumb li {
+	padding-bottom: 0px;
+	display: inline;
+	font-size: 20px;
+}
+.breadcrumb li a:link{
+	text-decoration: none;
+	
+	color: black;
+	letter-spacing:1.2px;
+}
 
 
+.echtetitel {
+	width: 80%;	
+	margin: 0px auto 0px auto;
+}
+
+.echtetitel h1 {
+	font-weight: normal; 
+	font-size: 35px;
+	letter-spacing: 2px;
+	color: black;	
+	word-spacing: 10px;
+}
 
 /* ###### TITEL/HOOFDSCHERM ###### */
 
@@ -269,6 +317,7 @@ img {
 	letter-spacing: 15px;
 	display: inline;	
 }
+
 
 
 
@@ -360,7 +409,6 @@ p.inspring {
   width: 100% !important;
   height: auto !important;
   margin: 0px;
-  
 }
 
 
