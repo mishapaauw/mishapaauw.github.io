@@ -125,7 +125,7 @@ dd {
 	padding-bottom: 10px;
 }
 
-.blok a{
+.blok a, a:visited{
 	text-decoration: none;
 	font-size: 23px;
 	color: black;
@@ -136,9 +136,6 @@ dd {
 	color: white;
 }
 
-.blok a:visited{
-	color:black;
-}
 
 
 
@@ -274,23 +271,18 @@ h5 {
 	font-size: 20px;
 	font-style:italic;
 }
-.breadcrumb li a{
+.breadcrumb a, a:visited{
 	text-decoration: none;
 	color: black;
 	letter-spacing:1.2px;
 }
 
-.breadcrumb li a:hover{
+.breadcrumb  a:hover{
 	text-decoration: none;
 	color: white;
 	letter-spacing:1.2px;
 }
 
-.breadcrumb li a:visited{
-	text-decoration: none;
-	color: black;
-	letter-spacing:1.2px;
-}
 
 
 
