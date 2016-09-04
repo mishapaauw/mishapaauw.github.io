@@ -125,18 +125,18 @@ dd {
 	padding-bottom: 10px;
 }
 
-.blok li a:link{
+.blok a{
 	text-decoration: none;
 	font-size: 23px;
 	color: black;
 	letter-spacing:1.2px;
 }
 
-li a:hover{
+.blok a:hover{
 	color: white;
 }
 
-li a:visited{
+.blok a:visited{
 	color:black;
 }
 
