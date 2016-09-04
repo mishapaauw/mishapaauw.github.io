@@ -132,13 +132,15 @@ dd {
 	letter-spacing:1.2px;
 }
 
+li a:hover{
+	color: white;
+}
+
 li a:visited{
 	color:black;
 }
 
-li a:hover{
-	color: white;
-}
+
 
 
 
