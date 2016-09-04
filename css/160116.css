@@ -274,12 +274,24 @@ h5 {
 	font-size: 20px;
 	font-style:italic;
 }
-.breadcrumb li a:link{
+.breadcrumb li a{
 	text-decoration: none;
-	
 	color: black;
 	letter-spacing:1.2px;
 }
+
+.breadcrumb li a:hover{
+	text-decoration: none;
+	color: white;
+	letter-spacing:1.2px;
+}
+
+.breadcrumb li a:visited{
+	text-decoration: none;
+	color: black;
+	letter-spacing:1.2px;
+}
+
 
 
 .echtetitel {
