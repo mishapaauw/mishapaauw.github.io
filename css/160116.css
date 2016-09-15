@@ -62,14 +62,6 @@ body {
 
 /* ######## ANDERE SECTIE SPECIFIEKE DINGEN ######## */
 /* contact */
-
-.blok li a:link{
-	text-decoration: none;
-	font-size: 23px;
-	color: black;
-	letter-spacing:1.2px;
-}
-
 .contactlink:hover{
 	color: white;
 }
@@ -146,20 +138,17 @@ dd {
 	padding-bottom: 10px;
 }
 
-.blok li a:link{
+.blok a, a:visited{
 	text-decoration: none;
 	font-size: 23px;
 	color: black;
 	letter-spacing:1.2px;
 }
 
-li a:hover{
+.blok a:hover{
 	color: white;
 }
 
-li a:visited{
-	color:black;
-}
 
 
 
@@ -295,12 +284,19 @@ h5 {
 	font-size: 20px;
 	font-style:italic;
 }
-.breadcrumb li a:link{
+.breadcrumb a, a:visited{
 	text-decoration: none;
-	
 	color: black;
 	letter-spacing:1.2px;
 }
+
+.breadcrumb  a:hover{
+	text-decoration: none;
+	color: white;
+	letter-spacing:1.2px;
+}
+
+
 
 
 .echtetitel {
