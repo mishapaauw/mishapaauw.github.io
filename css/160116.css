@@ -63,6 +63,27 @@ body {
 /* ######## ANDERE SECTIE SPECIFIEKE DINGEN ######## */
 /* contact */
 
+.blok li a:link{
+	text-decoration: none;
+	font-size: 23px;
+	color: black;
+	letter-spacing:1.2px;
+}
+
+.contactlink:hover{
+	color: white;
+}
+
+.contactlink:visited{
+	color:blue;
+}
+
+.contactlink:link {
+	text-decoration: none;
+	font-size: 20px;
+	color: blue;
+	letter-spacing:1.2px;
+}
 
 /* only used in CV */
 table {
