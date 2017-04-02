@@ -134,7 +134,7 @@ dd {
 }
 
 .blok ul li {
-	padding-left: 25px;
+	padding-left: 0px;
 	padding-bottom: 10px;
 }
 
@@ -429,6 +429,12 @@ p.inspring {
 }
 
 #photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  margin: 0px;
+}
+#photos video {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
