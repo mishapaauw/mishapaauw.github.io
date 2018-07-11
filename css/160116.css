@@ -23,6 +23,12 @@ body {
 /* ##
 
 ##### BACKGROUNDS & Sectie specifieke opmaak ###### */
+.recentbackground {
+	background-color: 	#96b4c5;
+	border: 0px solid red;
+	overflow:hidden;
+}
+
 
 .titelbackground {
 	background:  url("../images/achtergrond3.JPG");
@@ -35,23 +41,23 @@ body {
 }
 
 .gedichtenbackground {
-	background-color: 	#9cc7df;
+	background-color: 	#96b4c5;
 	overflow:hidden;
 }
 
 .agendabackground {
-	background-color: 	#96b4c5;
+	background-color: 	#9cc7df;
 	border: 0px solid red;
 	overflow:hidden;
 }
 
 .cvbackground {
-	background-color: 	#9cc7df;
+	background-color: 	#96b4c5;
 	overflow:hidden;
 }
 
 .contactbackground {
-	background-color: 	#96b4c5;
+	background-color: 	#9cc7df;
 	overflow:hidden;
 	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 }
